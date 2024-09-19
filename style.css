@@ -1,0 +1,48 @@
+*{
+  margin:0%;
+  padding:0%;
+  box-sizing: border-box;
+}
+
+html,body{
+height:100%;
+width:100%;
+}
+
+
+#Main{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#robotimg{
+    height: 60vh;
+}
+#intro{
+    color: azure;
+}
+#Chitti{
+    color: rgb(194, 36, 128);
+}
+#virtual{
+    color: #03CCBD;
+}
+#btn{
+    height: 8vh;
+    width: 25vw;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#voice{
+    height: 10vw;
+    display: none;
+}
