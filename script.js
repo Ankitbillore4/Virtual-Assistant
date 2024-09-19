@@ -59,6 +59,9 @@ function takeCommand(message){
     else if(message.includes("how are you")){
         speak("i am Fine , Aap Kese hoo")
     }
+    else if(message.includes("what can you do")){
+        speak("I Was Assigned A Limited Question To Serve, So Please Click The document button in right top corner ,  For ask a Assigned Question , ")
+    }
     else if(message.includes("open youtube")){
         speak("opening youtube..")
         window.open("https://www.youtube.com/","_blank")
@@ -101,3 +104,21 @@ function takeCommand(message){
         window.open(`https://www.google.com/search?q=${message.replace("chitti","")}`,"_blank")
     }
 }
+
+
+
+let Dcmt = document.querySelector(".Dcmt")
+let down = document.querySelector(".down")
+
+let flag = 0
+Dcmt.addEventListener("click",()=>{
+   if(flag==0){
+    down.style.rotate="180deg"
+    flag=1
+   }else{
+    down.style.rotate="360deg"
+    flag=0
+   }
+    
+})
+
