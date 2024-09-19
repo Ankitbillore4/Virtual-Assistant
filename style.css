@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Bungee+Tint&display=swap');
+
+
 *{
   margin:0%;
   padding:0%;
@@ -24,9 +27,13 @@ width:100%;
 }
 #intro{
     color: azure;
+    font-family: "Bowlby One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 #Chitti{
     color: rgb(194, 36, 128);
+    
 }
 #virtual{
     color: #03CCBD;
@@ -34,13 +41,25 @@ width:100%;
 #btn{
     height: 8vh;
     width: 25vw;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 2vw;
     cursor: pointer;
     border-radius: 15px;
+    color: whitesmoke;
+    background: linear-gradient(to right, #f30ec9,#02C9B9);
+
+}
+#btn:hover{
+    letter-spacing: 0.2vw;
+    transition: ease-out all  0.3s ;
+}
+
+#content{
+    padding-left: 1vw;
+    
 }
 #voice{
     height: 10vw;
