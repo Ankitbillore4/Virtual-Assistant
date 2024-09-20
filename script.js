@@ -116,6 +116,12 @@ Dcmt.addEventListener("click",()=>{
    if(flag==0){
     down.style.rotate="180deg"
     data.classList.remove("hidden")
+    let tl =  gsap.timeline()
+   tl.from(".boxes",{
+    y:-50,
+    duration:0.8,
+    stagger:0.1
+})
     flag=1
    }else{
     down.style.rotate="360deg"
@@ -124,4 +130,7 @@ Dcmt.addEventListener("click",()=>{
    }
     
 })
+
+
+
 
