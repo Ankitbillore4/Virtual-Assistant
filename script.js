@@ -50,7 +50,7 @@ btn.addEventListener("click",()=>{
 function takeCommand(message){
      btn.style.display= "flex"
     voice.style.display= "none"
-    if(message.includes("hello") || message.includes("hii")){
+    if(message.includes("hello chitti") || message.includes("hi chitti")){
         speak("helo sir, what can i help you?")
     }
     else if(message.includes("who are you") || message.includes("hu r u")){
@@ -118,7 +118,7 @@ Dcmt.addEventListener("click",()=>{
     data.classList.remove("hidden")
     let tl =  gsap.timeline()
    tl.from(".boxes",{
-    y:-50,
+    y:-65,
     duration:0.8,
     stagger:0.1
 })
