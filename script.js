@@ -30,9 +30,9 @@ function wishme(){
     
  }
 }
-window.addEventListener("load",()=>{
-    wishme()
-})
+// window.addEventListener("load",()=>{
+//     wishme()
+// })
 
 let speechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
 let recognition = new  speechRecognition()
@@ -109,14 +109,17 @@ function takeCommand(message){
 
 let Dcmt = document.querySelector(".Dcmt")
 let down = document.querySelector(".down")
+let data = document.querySelector(".data")
 
 let flag = 0
 Dcmt.addEventListener("click",()=>{
    if(flag==0){
     down.style.rotate="180deg"
+    data.classList.remove("hidden")
     flag=1
    }else{
     down.style.rotate="360deg"
+    data.classList.add("hidden")
     flag=0
    }
     
