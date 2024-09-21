@@ -30,9 +30,9 @@ function wishme(){
     
  }
 }
-// window.addEventListener("load",()=>{
-//     wishme()
-// })
+window.addEventListener("load",()=>{
+    wishme()
+})
 
 let speechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
 let recognition = new  speechRecognition()
