@@ -102,7 +102,6 @@ function takeCommand(message){
     }
 }
 
-
 let Dcmt = document.querySelector(".Dcmt")
 let down = document.querySelector(".down")
 let data = document.querySelector(".data")
