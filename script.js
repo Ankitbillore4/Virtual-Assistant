@@ -56,8 +56,8 @@ function takeCommand(message){
     else if(message.includes("who are you") || message.includes("hu r u")){
         speak("i am virtual assistant , Created By Ankit  billore")
     }
-    else if(message.includes("how are you")){
-        speak("i am Fine , Aap Kese hoo")
+    else if(message.includes("how are you") || message.includes("how r u")){
+        speak("i am Fine , tu kesa he rishav madarchod.  bhen ke labde  ")
     }
     else if(message.includes("what can you do")){
         speak("I Was Assigned A Limited Question To Serve, So Please Click The document button in right top corner ,  For ask a Assigned Question , ")
