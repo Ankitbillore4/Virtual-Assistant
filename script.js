@@ -25,7 +25,6 @@ function wishme(){
  else{
     speak("Good Evening Sir")
     console.log("Evening");
-    
  }
 }
 window.addEventListener("load",()=>{
