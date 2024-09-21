@@ -16,8 +16,7 @@ function wishme(){
  let hours= day.getHours()
  if(hours>=0 && hours<12){
     speak("Good Morning Sir")
-    console.log("Morning");
-    
+    console.log("Morning"); 
  }
  else if(hours>=12 && hours<16){
     speak("Good Afternoon Sir")
