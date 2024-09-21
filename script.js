@@ -21,7 +21,6 @@ function wishme(){
  else if(hours>=12 && hours<16){
     speak("Good Afternoon Sir")
     console.log("After Nooon");
-
  }
  else{
     speak("Good Evening Sir")
