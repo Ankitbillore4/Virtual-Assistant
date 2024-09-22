@@ -101,7 +101,6 @@ function takeCommand(message){
         window.open(`https://www.google.com/search?q=${message.replace("chitti","")}`,"_blank")
     }
 }
-
 let Dcmt = document.querySelector(".Dcmt")
 let down = document.querySelector(".down")
 let data = document.querySelector(".data")
