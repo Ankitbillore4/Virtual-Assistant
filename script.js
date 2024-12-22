@@ -122,7 +122,6 @@ Dcmt.addEventListener("click",()=>{
     data.classList.add("hidden")
     flag=0
    }
-    
 })
 
 
