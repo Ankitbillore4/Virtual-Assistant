@@ -1,45 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Bungee+Tint&display=swap');
 
-*{
-  margin:0%;
-  padding:0%;
-  box-sizing: border-box;
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
-html,body{
-height:100%;
-width:100%;
+html,
+body {
+    height: 100%;
+    width: 100%;
 }
 
-#Main{
+#Main {
     position: absolute;
     top: 0%;
     height: 100vh;
     width: 100vw;
-    background-color:rgba(0, 0, 0, 0.128); 
+    background-color: rgba(0, 0, 0, 0.128);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-#robotimg{
+
+#robotimg {
     height: 60vh;
 }
-#intro{
+
+#intro {
     color: azure;
     font-size: 2vw;
     font-family: "Bowlby One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
-#Chitti{
+
+#Chitti {
     color: rgb(194, 36, 128);
- 
+
 }
-#virtual{
+
+#virtual {
     color: #03CCBD;
 }
-#btn{
+
+#btn {
     height: 8vh;
     width: 25vw;
     font-size: 1.7vw;
@@ -50,16 +56,19 @@ width:100%;
     cursor: pointer;
     border-radius: 15px;
     color: whitesmoke;
-    background: linear-gradient(to right, #f30ec9,#02C9B9);
+    background: linear-gradient(to right, #f30ec9, #02C9B9);
 }
-#btn:hover{
+
+#btn:hover {
     letter-spacing: 0.2vw;
-    transition: ease-out all  0.3s ;
+    transition: ease-out all 0.3s;
 }
-#content{
+
+#content {
     padding-left: 1vw;
 }
-#voice{
+
+#voice {
     height: 10vw;
     display: none;
 }
